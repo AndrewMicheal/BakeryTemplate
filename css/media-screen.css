@@ -1,0 +1,925 @@
+/***********************************Start Small Device***********************/
+@media screen and (max-width: 568px){
+    /********************Start Header*************/
+    header{
+        position: static;
+        background-color: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    header .container{
+        width: 100%;
+    }
+    header .logo{
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid #eee; 
+        padding-left: 30px;
+        padding-top: 10px; 
+    }
+    header .logo .backery-light{
+       display: none;
+    }
+    header .logo .backery{
+        display: block;
+        width: 40%;
+        float: left;
+        padding-left: 30px;
+        padding-bottom: 15px;
+    }
+    header .logo .navbar-menu{
+        width: 60%;
+        float: left;
+        display: block;
+        position: relative;
+    }
+    header .logo .navbar-menu .menu-icon{
+        position: absolute;
+        right: 31px;
+        top: 10px;
+    }
+    header .logo .navbar-menu i{
+        color: #8e7754;
+    }
+    header .logo .navbar-menu i:hover{
+        cursor: pointer;
+    }
+    #close{
+        display: none;
+    }
+    header .navbar{
+        width: 100%;
+        text-align: left;
+        height: 0%;
+    }
+    header .navbar li{
+        list-style: none;
+        display: block;
+        border-bottom: 1px solid #eee;
+        padding-left: 40px;    
+    }
+    header .navbar li:last-child{
+        border: none;
+    }
+    header .navbar li a{
+        display: block;
+        padding : 10px;
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    header .navbar li a:hover{
+        color: #6a6a6a;
+    }
+    header .navbar .drop-down:hover .dropdown-menu{
+        opacity: 0;
+        visibility: hidden;
+    }
+    /********************End Header*************/
+    /********************Start Home***************/
+    .home{
+        height: 100vh;
+        background-image: url(../images/drew-coffman-1872.jpg);
+        background-size: 100% 100%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .home-content{
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    .home-content span{
+        display: block;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .home-content .home-title{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .home-content .home-desc{
+        line-height: 1.8;
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+    .btn{
+        padding: 15px 30px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .btn-learn{
+        background-color: #8E7754;
+        border: none;
+        margin-right: 5px;
+    }
+    .btn-contact{
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+    .home-content .scroll-image{
+        margin-top: 50px;
+    }
+    .home-content .scroll-image img{
+        width: 15%;
+    }
+    .home .logo .menu-icon img:hover{
+        cursor: pointer;   
+    }
+    /********************End Home***************/
+    /********************Start About**************/
+    .about .container{
+        width: 91%;
+        margin: auto;
+    }
+    .about .about-content{
+        font-size: bold;
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 25px;
+        padding-right: 40px;
+    }
+    .about .image{
+        width: 100%;
+        margin-left: 40px;
+        padding-right: 40px;
+    }
+    .about .image img{
+        width: 100%;
+    }
+    /***********************End About*********************/
+
+    /**********************Start Location*****************/
+    .location{
+        margin-top: 5px;
+    }
+    .location .container{
+        width: 90%;
+        margin: auto;
+    }
+    .location-content{
+        margin-left: 20px;
+    }
+    .location-item-text
+    {
+        width: 100%;
+        font-weight: bold;
+    }
+    .location-item-text .location-desc-one,
+    .location-item-text .location-desc-two
+    {
+        width: 100%;
+        line-height: 1.9;
+        color: #6A6A6A;
+    }
+    .location-item-image{
+        width: 100%;
+    }
+    .location-item-image img{
+        width: 100%;
+    }
+    /***********************End Location*********************/
+
+    /***********************Start Baking*********************/
+    .our-baking .container{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .our-baking-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .our-baking-content{
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .our-baking-item{
+        width: 100%;
+    }
+    .our-baking div.mg{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .our-baking-item img{
+        width: 100%;
+    }
+    .our-baking-item .our-baking-item-title{
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .our-baking-item .our-baking-item-desc{
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+    /***********************End Baking*********************/
+
+    /***********************Start Contact******************/
+    .contact{
+        margin-top: 80px;
+        background-color: #F8F8F8;
+        padding-bottom: 70px;
+        font-weight: bold;
+    }
+    .contact .container{
+        width: 90%;
+        margin: auto;
+    }
+    .contact-item{
+        width: 100%;
+    }
+    .contact-map{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-map iframe{
+        width: 100%;
+    }
+    /**********************End Contact**********************/
+
+    /*ٍ*********************Start Blog***********************/
+    .blog{
+        background-image: url(../images/contact-details-map.png);
+        background-position: 30vw 230vh;
+    }
+    .blog .container{
+        width: 91%;
+        margin: auto;
+    }
+    .blog-item{
+        width: 100%;
+    }
+    .item-three ul li img{
+        width: 5%;
+    }
+    .item-three ul li span{
+        color: #969696;
+        margin-left: 50px;
+    }
+    /**********************End Blog***********************/
+}
+/***********************************End Small Device***********************/
+
+/**********************************Start Medium Device*********************/
+@media screen and (min-width: 568px) and (max-width : 768px){
+    /********************Start Header*************/
+    header{
+        position: static;
+        background-color: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    header .container{
+        width: 100%;
+    }
+    header .logo{
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid #eee; 
+        padding-left: 30px;
+        padding-top: 10px; 
+    }
+    header .logo .backery-light{
+       display: none;
+    }
+    header .logo .backery{
+        display: block;
+        width: 40%;
+        float: left;
+        padding-left: 30px;
+        padding-bottom: 15px;
+    }
+    header .logo .navbar-menu{
+        width: 60%;
+        float: left;
+        display: block;
+        position: relative;
+    }
+    header .logo .navbar-menu .menu-icon{
+        position: absolute;
+        right: 31px;
+        top: 15px;
+    }
+    header .logo .navbar-menu i{
+        color: #8e7754;
+    }
+    header .logo .navbar-menu i:hover{
+        cursor: pointer;
+    }
+    #close{
+        display: none;
+    }
+    header .navbar{
+        width: 100%;
+        text-align: left;
+        height: 0%;
+    }
+    header .navbar li{
+        list-style: none;
+        display: block;
+        border-bottom: 1px solid #eee;
+        padding-left: 40px;    
+    }
+    header .navbar li:last-child{
+        border: none;
+    }
+    header .navbar li a{
+        display: block;
+        padding : 10px;
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    header .navbar li a:hover{
+        color: #6a6a6a;
+    }
+    header .navbar .drop-down:hover .dropdown-menu{
+        opacity: 0;
+        visibility: hidden;
+    }
+    /********************End Header*************/
+    /********************Start Home***************/
+    .home{
+        height: 100vh;
+        background-image: url(../images/drew-coffman-1872.jpg);
+        background-size: 100% 100%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .home-content{
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    .home-content span{
+        display: block;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .home-content .home-title{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .home-content .home-desc{
+        line-height: 1.8;
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+    .btn{
+        padding: 15px 30px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .btn-learn{
+        background-color: #8E7754;
+        border: none;
+        margin-right: 5px;
+    }
+    .btn-contact{
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+    .home-content .scroll-image{
+        width: 50%;
+        margin: 25px auto;
+    }
+    .home-content .scroll-image img{
+        width: 15%;
+    }
+    .home .logo .menu-icon img:hover{
+        cursor: pointer;   
+    }
+    /********************End Home***************/
+    /********************Start About**************/
+    .about .container{
+        width: 91%;
+        margin: auto;
+    }
+    .about .about-content{
+        font-size: bold;
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 25px;
+        padding-right: 40px;
+    }
+    .about .image{
+        width: 100%;
+        margin-left: 40px;
+        padding-right: 40px;
+    }
+    .about .image img{
+        width: 100%;
+    }
+    /***********************End About*********************/
+
+    /**********************Start Location*****************/
+    .location{
+        margin-top: 5px;
+    }
+    .location .container{
+        width: 90%;
+        margin: auto;
+    }
+    .location-content{
+        margin-left: 20px;
+    }
+    .location-item-text
+    {
+        width: 100%;
+        font-weight: bold;
+    }
+    .location-item-text .location-desc-one,
+    .location-item-text .location-desc-two
+    {
+        width: 100%;
+        line-height: 1.9;
+        color: #6A6A6A;
+    }
+    .location-item-image{
+        width: 100%;
+    }
+    .location-item-image img{
+        width: 100%;
+    }
+    /***********************End Location*********************/
+
+    /***********************Start Baking*********************/
+    .our-baking .container{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .our-baking-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .our-baking-content{
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .our-baking-item{
+        width: 100%;
+    }
+    .our-baking div.mg{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .our-baking-item img{
+        width: 100%;
+    }
+    .our-baking-item .our-baking-item-title{
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .our-baking-item .our-baking-item-desc{
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+    /***********************End Baking*********************/
+
+    /***********************Start Contact******************/
+    .contact{
+        margin-top: 80px;
+        background-color: #F8F8F8;
+        padding-bottom: 70px;
+        font-weight: bold;
+    }
+    .contact .container{
+        width: 90%;
+        margin: auto;
+    }
+    .contact-item{
+        width: 100%;
+    }
+    .contact-map{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-map iframe{
+        width: 100%;
+    }
+    /**********************End Contact**********************/
+
+    /*ٍ*********************Start Blog***********************/
+    .blog{
+        background-image: url(../images/contact-details-map.png);
+        background-position: 30vw 230vh;
+    }
+    .blog .container{
+        width: 91%;
+        margin: auto;
+    }
+    .blog-item{
+        width: 100%;
+    }
+    .item-three ul li img{
+        width: 5%;
+    }
+    .item-three ul li span{
+        color: #969696;
+        margin-left: 60px;
+    }
+    /**********************End Blog***********************/
+}
+/**********************************End Medium Device*********************/
+
+/**********************************Start Large Device*********************/
+@media screen and (min-width: 769px) and (max-width : 990px){
+    /********************Start Header*************/
+    header{
+        position: static;
+        background-color: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+    header .container{
+        width: 100%;
+    }
+    header .logo{
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid #eee; 
+        padding-left: 30px;
+        padding-top: 10px; 
+    }
+    header .logo .backery-light{
+       display: none;
+    }
+    header .logo .backery{
+        display: block;
+        width: 30%;
+        float: left;
+        padding-left: 30px;
+        padding-bottom: 15px;
+    }
+    header .logo .navbar-menu{
+        width: 70%;
+        float: left;
+        display: block;
+        position: relative;
+    }
+    header .logo .navbar-menu .menu-icon{
+        position: absolute;
+        right: 31px;
+        top: 22px;
+    }
+    header .logo .navbar-menu i{
+        color: #8e7754;
+    }
+    header .logo .navbar-menu i:hover{
+        cursor: pointer;
+    }
+    #close{
+        display: none;
+    }
+    header .navbar{
+        width: 100%;
+        text-align: left;
+        height: 0%;
+    }
+    header .navbar li{
+        list-style: none;
+        display: block;
+        border-bottom: 1px solid #eee;
+        padding-left: 40px;    
+    }
+    header .navbar li:last-child{
+        border: none;
+    }
+    header .navbar li a{
+        display: block;
+        padding : 10px;
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    header .navbar li a:hover{
+        color: #6a6a6a;
+    }
+    header .navbar .drop-down:hover .dropdown-menu{
+        opacity: 0;
+        visibility: hidden;
+    }
+    /********************End Header*************/
+    /********************Start Home***************/
+    .home{
+        height: 100vh;
+        background-image: url(../images/drew-coffman-1872.jpg);
+        background-size: 100% 100%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .home-content{
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    .home-content span{
+        display: block;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .home-content .home-title{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .home-content .home-desc{
+        line-height: 1.8;
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+    .btn{
+        padding: 15px 30px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .btn-learn{
+        background-color: #8E7754;
+        border: none;
+        margin-right: 5px;
+    }
+    .btn-contact{
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+    .home-content .scroll-image{
+        margin-top: 50px;
+        width: 50%;
+        margin: 25px auto;
+        text-align: center;
+    }
+    .home-content .scroll-image img{
+        width: 15%;
+    }
+    .home .logo .menu-icon img:hover{
+        cursor: pointer;   
+    }
+    /********************End Home***************/
+    /********************Start About**************/
+    .about{
+        padding-top: 90px;
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+    .about .image{
+        width: 40%;
+        float: left;
+    }
+    .about .image img{
+        width: 100%;
+    }
+    .about-content{
+        width: 50%;
+        float: left;
+        margin-left: 10%;
+    }
+    .about-title{
+        color: #303030;
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .about-desc{
+        line-height: 1.8;
+        color: #6A6A6A;
+        width: 99%;
+        margin-bottom: 20px;
+    }
+    .about-item{
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .about-item .item-image{
+        width: 10%;
+        float: left;
+    }
+    .about-item .item-image img{
+        width: 90%;
+    }
+    .about-item h3{
+        width: 80%;
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #686868;
+    }
+    /***********************End About*********************/
+
+    /**********************Start Location*****************/
+    .location{
+        background-color: #F8F8F8;
+        margin-top: 90px;
+        padding-bottom: 70px;
+    }
+    .location-content{
+        overflow: hidden;
+    }
+    .location-item-text
+    {
+        width: 50%;
+        float: left;
+        padding-top: 190px;
+        font-weight: bold;
+        margin-right: 10%;
+    }
+    .location-item-text .location-title{
+        color: #303030;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .location-item-text .location-desc-one{
+        margin-bottom: 20px;
+    }
+    .location-item-text .location-desc-one,
+    .location-item-text .location-desc-two
+    {
+        width: 95%;
+        line-height: 1.9;
+        color: #6A6A6A;
+    }
+    .location-item-image{
+        width: 40%;
+        float: left;
+        padding-top: 200px;
+    }
+    .location-item-image img{
+        width: 100%;
+    }
+    /***********************End Location*********************/
+
+    /***********************Start Baking*********************/
+    .our-baking{
+        margin-top: 90px;
+        font-weight: bold;
+        margin-bottom: 70px;
+    }
+    .our-baking-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .our-baking-content{
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .our-baking-item{
+        width: 30%;
+        float: left;
+    }
+    .our-baking-item img{
+        width: 100%;
+    }
+    .our-baking-item .our-baking-item-title{
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .our-baking-item .our-baking-item-desc{
+        line-height: 1.8;
+    }
+    /***********************End Baking*********************/
+
+    /***********************Start Contact******************/
+    .contact{
+        margin-top: 80px;
+        background-color: #F8F8F8;
+        padding-bottom: 60px;
+        font-weight: bold;
+    }
+    .contact-content{
+        overflow: hidden;
+    }
+    .contact-item{
+        width: 50%;
+        float: left;
+        margin-right: 10%;
+    }
+    .contact-item .contact-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+        color: #303030;
+    }
+    .contact-item , .contact-map{
+        padding-top: 90px;
+    }
+    .contact-item .contact-desc{
+        line-height: 1.8;
+        width: 90%;
+        margin-bottom: 20px;
+        color: #6A6A6A;
+    }
+    .contact-item h3{
+        margin-bottom: 25px;
+        color: #303030;
+    }
+    .contact-item ul li{
+        list-style: none;
+        margin-bottom: 30px;
+    }
+    .contact-item ul li img{
+        width: 8%;
+    }
+    .contact-item ul li span{
+        display: block;
+        margin-top: -20px;
+        margin-left: 40px;
+        color: #6A6A6A;
+    }
+    .contact-map{
+        width: 40%;
+        height: 400px;
+        float: left;
+        position: relative;
+    }
+    .contact-map iframe{
+        width: 100%;
+        height: 100%;
+    }
+    /**********************End Contact**********************/
+
+    /*ٍ*********************Start Blog***********************/
+    .blog{
+        padding-bottom: 70px;
+        background-color: #403D38;
+        background-position: 67vw 20vh;
+        background-repeat: no-repeat;
+        background-image: url(../images/contact-details-map.png);
+    }
+    .blog .container{
+        width: 95%;
+        margin: auto;
+    }
+    .blog-content{
+        overflow: hidden;
+        width: 100%;
+        font-weight: bold;
+    }
+    .blog-item{
+        padding-top: 70px;
+        width: 50%;
+        float: left;
+    }
+    .blog-title{
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: #fff;
+    }
+    .blog-desc-one{
+        margin-bottom: 20px;
+    }
+    .blog-desc-one,.blog-desc-two{
+        line-height: 1.8;
+        color: #969696;
+        width: 90%;
+    }
+    .blog-item div{
+        border-width: 2%;
+        margin-bottom: 20px;
+        padding-top: 15px;
+        color: #969696;
+    }
+    .pd-x{
+        padding-left: 15px;
+    }
+    .item-one .line , .item-two .line
+    {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.05);
+        margin-bottom: 10px;
+    }
+    .item-three ul li{
+        list-style: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    .item-three ul li img{
+        width: 5%;
+    }
+    .item-three ul li span{
+        display: block;
+        margin-left: 50px;
+        color: #969696;
+    }
+    /**********************End Blog***********************/
+}
+/**********************************End Large Device*********************/
